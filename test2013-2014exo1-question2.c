@@ -3,11 +3,9 @@ int main()
 {
     int n;
     printf("Entrer un nombre n plus grand que 2 : ");
-    scanf("%d",&n);
-    if(n<2)
-    {
-        printf("Nombre n invalide \n");
-    }
+    do{
+        scanf("%d",&n);
+    }while(n<2);
     for(int i = 2 ; i <= n ; i++)
     {
         if(n%i == 0)
