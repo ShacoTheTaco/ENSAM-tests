@@ -16,6 +16,7 @@ int main()
                 if(i%j == 0)
                 {
                     k++;
+                    break;
                 }
             }
             if(k == 0)
